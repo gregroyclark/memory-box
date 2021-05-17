@@ -18,5 +18,9 @@ export default function Login() {
     document.title = "Login - MemoryBox";
   }, []);
 
-  return <p>I am a login page.</p>;
+  return (
+    <div className="contianer flex mx-auto max-w-screen-md items-center h-screen">
+      <p>wot</p>
+    </div>
+  )
 }
